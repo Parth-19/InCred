@@ -1789,13 +1789,14 @@ section {
 }
 
 .footerit {
-  display: flex;
+ 
  text-align: center;
   justify-content: space-between;
   background-color: #f0f0f000;
   color: #ffffff;
   padding: 10px;
   font-size: 14px;
+  align-items: center;
 }
 
 #footer .footer-top .footer-links ul {
@@ -1826,6 +1827,7 @@ section {
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
+  align-items: center;
 }
 
 #footer .footer-top .footer-links ul a:hover {
