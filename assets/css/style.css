@@ -610,7 +610,7 @@ section {
   color: #F37A28;
   display: inline-block;
   text-transform: uppercase;
-  border-radius: 50px;
+  border-radius: 10px;
 }
 
 .card-title h1 {
