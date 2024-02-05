@@ -1,6 +1,6 @@
 /**
 * Template Name: BizLand
-* Updated: Sep 18 2023 with Bootstrap v5.3.2
+* Updated: Jan 29 2024 with Bootstrap v5.3.2
 * Template URL: https://bootstrapmade.com/bizland-bootstrap-business-template/
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
@@ -40,7 +40,7 @@
   const onscroll = (el, listener) => {
     el.addEventListener('scroll', listener)
   }
-  document.addEventListener('contextmenu', event => event.preventDefault());
+
   /**
    * Navbar links active state on scroll
    */
