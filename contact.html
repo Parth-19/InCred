@@ -25,7 +25,32 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <style>
+    /* Button styling */
+    .nav-link button {
+        padding: 8px 16px; /* Adjust padding as needed */
+        background-color: #F37A28; /* Button background color */
+        color: white; /* Button text color */
+        border: none; /* Remove button border */
+        border-radius: 4px; /* Add some border radius */
+        cursor: pointer; /* Show pointer cursor on hover */
+        transition: background-color 0.3s ease; /* Smooth transition for background color */
+    }
 
+    .nav-link button:hover {
+        background-color: #5D99A8; /* Darker background color on hover */
+    }
+
+    /* Adjust spacing between button and other nav links */
+    .nav-link {
+        margin-right: 15px;
+    }
+
+    /* Adjust the vertical alignment of the button */
+    .nav-link button {
+        vertical-align: middle;
+    }
+</style>
  
 </head>
 
@@ -57,20 +82,22 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto" href="index.html">Home</a></li>
-          <li class="dropdown"><a href="#"><span>Who We Are</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>  
-                  <li><a class="nav-link scrollto " href="Our-team.html">Our Team </a></li>
-                  <li><a class="nav-link scrollto " href="our-company.html">Our Company</a></li>
-            </ul>
-          </li>
-          
-          <li><a class="nav-link scrollto " href="whatwedo.html">What We Do</a></li>
-          <li><a class="nav-link scrollto" href="#">News</a></li>
-          <li><a class="nav-link scrollto active" href="contact.html">Contact</a></li>
+            <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
+            <li class="dropdown">
+                <a href="#"><span>Who We Are</span> <i class="bi bi-chevron-down"></i></a>
+                <ul>
+                    <li><a class="nav-link scrollto" href="Our-team.html">Our Team</a></li>
+                    <li><a class="nav-link scrollto" href="our-company.html">Our Company</a></li>
+                </ul>
+            </li>
+            <li><a class="nav-link scrollto" href="whatwedo.html">What We Do</a></li>
+            <li><a class="nav-link scrollto" href="comingsoon.html">News</a></li>
+            <li><a class="nav-link scrollto" href="contact.html">Contact</a></li>
+            <!-- New Button -->
+            <li><a class="nav-link scrollto" href="https://research.incredresearch.com/account/login"><button>Login</button></a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
+    </nav><!-- .navbar -->
 
     </div>
   </header><!-- End Header -->
@@ -250,7 +277,7 @@
         Seeding Aadhar with PAN : In case PAN is not seeded with AADHAAR before 31st March, 2022 or any other date as notified by Government, it will not be considered as a valid PAN. Kindly get in touch with your Relationship Manager for assistance.</p>
   </div>
     <div class="container py-4">
-      <<div class="copyright">
+      <div class="copyright">
         &copy; Copyright <strong><span>Incred Research</span></strong>. All Rights Reserved | Designed & Developed by <a href="https://digimadmediahouse.com/"><strong><span>Digimad Media House Pvt Ltd.</span></strong></a>
       </div>
 
